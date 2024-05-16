@@ -1,0 +1,362 @@
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 120px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+#LogoAltaP {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Sección Principal */
+main {
+  padding: 90px;
+}
+
+#presentaciones {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ApartadoMenu {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#Destacados {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.platillos {
+  text-align: center;
+}
+
+.platillos h3 {
+  font-size: 40px;
+}
+
+.platillos p {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.platillos img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Pie de Página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-weight: bolder;
+
+}
+
+.contenidoFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+.redes {
+  flex-basis: 30%;
+
+}
+
+.redes ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.redes li {
+  margin-right: 10px;
+}
+
+.redes a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/******************************* MENU *******************************/
+#menu {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+#menu h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menuLista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuLista h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.platillos {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.platillos img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.platillos h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.platillos p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.platillos .precio {
+  font-size: 25px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.platillos button {
+  background-color: #3fd43f;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .5s;
+  font-size: 25px;
+}
+
+.platillos button:hover {
+  background-color: #063109;
+}
+
+/************************************************NOSOTROS**************************************************/
+
+#about h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.about-text p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+/********************************************************Promos*********************************************/
+
+#promos {
+  padding: 40px 0;
+  text-align: center;
+
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.promo-item img {
+  width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/*********************************************Contactanos******************************************/
+#contact {
+  padding: 40px 0;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 30px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+#contact button {
+  display: block;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+/************************CATERING*****************************/
+
+#catering h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.catering-text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+/**************************EVENTOS********************/
+
+#events h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.event-grid h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.event-grid p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.containerh {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #c0c0c0a2;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c44100;
+    color: #333;
+}
